@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+/* importo da google un font*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap'); 
 
 *{
+  font-family: 'Kanit', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,6 +13,10 @@
   margin: 0 auto; /* centra il contenuto */
 }
 
+#logo{
+  margin-left: 40px;
+}
+
 #main-header img, #main-header h1{
   padding-top: 20px;
   display: inline-block;
@@ -19,4 +25,58 @@
 #title{
   font-size: 350%;
   font-family: 'Kanit', sans-serif;
+}
+
+.box{
+  background-color: rgb(237, 232, 232);
+  width: 900px;
+  height: 700px;
+  padding-top: 40px;
+  border-radius: 0.5%;
+}
+
+.first{
+  background-color: white;
+  width: 700px;
+  height: 50px;
+  border-radius: 0.5%;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.button{
+  display: inline;
+  width: 60px;
+  height: 40px;
+}
+
+.blue{
+  background-color: rgb(115, 213, 216);
+  color: white;
+  /*border-style: solid 0.5px;
+  border-color: grey;*/
+  border-radius: 5%;
+}
+
+.white{
+  background-color: azure;
+  color: grey;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 10%;
+}
+
+.second{
+  background-color: white;
+  width: 700px;
+  height: 550px;
+  border-radius: 0.5%;
+  margin-top: 5px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.subtitle{
+  font-size: 20px;
 }
