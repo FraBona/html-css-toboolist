@@ -47,7 +47,7 @@ ul, li{
   padding-left: 30px;
 }
 
-.button{
+.btn{
   display: inline;
   width: 60px;
   height: 40px;
@@ -95,6 +95,65 @@ ul, li{
   color: rgb(114, 203, 114);;
 }
 
-btn-tasks{
+.error{
+  border-color: red;
+  color: red;
+}
+
+.btn{
   display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  border-radius: 10%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.task{
+  background-color: rgb(67, 135, 181);
+  color: white;
+}
+
+.section{
+  background-color: white;
+  border: solid;
+  border-width: 1px;
+  border-color: grey;
+  color: grey;
+}
+
+.square-tasks{
+  display: inline-block;
+  text-align: center;
+  width: 70px;
+  height: 25px;
+  border-radius: 25%;
+  color: white;
+}
+
+.editioral{
+  background-color:rgb(104, 168, 168);
+}
+
+.q1{
+  background-color: violet;
+}
+
+.recruiting{
+  background-color: chartreuse;
+}
+
+.mobile{
+  background-color: orange;
+}
+
+.website{
+  background-color: pink;
+}
+
+.sales{
+  background-color: forestgreen;
 }

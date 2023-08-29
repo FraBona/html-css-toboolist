@@ -8,7 +8,7 @@
 </head>
 <body>
   <header id="main-header">
-    <div class="container">
+    <div>
       <img src="./img/Logo.png" alt="logo nero verde rombo" id="logo">
       <h1 id="title">Toboolist</h1>
     </div>
@@ -17,8 +17,8 @@
   <main>
     <div class="container box">
       <div class="container nav">
-          <span class="button blue">Add Task</span>
-          <span class="button white">Add Section </span>
+        <button class="btn task">Add Task</button>
+        <button class="btn section">Add Section</button>
       </div>
 
       <div class="container tasks">
@@ -26,28 +26,43 @@
         <section>
           <strong class="subtitle">&nabla; New Task</strong>
           <ul>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li>
-            <button class="btn-tasks">Editioral</button>
+            <li><span class="special-character">&check;</span> Quarterly Newsletter
+              <span class="square-tasks editioral">Editioral</span>
+            </li>
           </ul>
         </section>
 
         <section>
           <strong class="subtitle">&nabla; Today</strong>
           <ul>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li> 
+            <li><span class="special-character">&check;</span> Quarterly Newsletter
+              <span class="square-tasks editioral">Editioral</span>
+            </li>
+            <li><span class="special-character">&check;</span> Quarterly Newsletter
+              <span class="square-tasks q1">Q1 Goals</span>
+            </li>
+            <li><span class="special-character error">&#10005;</span> Quarterly Newsletter
+              <span class="square-tasks recruiting">Recruting</span>
+            </li>
+            <li><span class="special-character">&check;</span> Quarterly Newsletter
+              <span class="square-tasks mobile">Mobile</span>
+            </li> 
           </ul>
         </section>
 
         <section>
           <strong class="subtitle">&nabla; Upcoming</strong>
           <ul>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li>
-            <li><span class="special-character">&check;</span> Quarterly Newsletter</li>
+            <li><span class="special-character error">&#10005;</span> Quarterly Newsletter</li>
+            <li><span class="special-character">&check;</span> Quarterly Newsletter
+              <span class="square-tasks website">Website</span>
+            </li>
+            <li><span class="special-character">&check;</span> Quarterly Newsletter
+              <span class="square-tasks sales">Sales</span>
+            </li>
+            <li><span class="special-character">&check;</span> Quarterly Newsletter
+              <span class="square-tasks editioral">Editioral</span>
+            </li>
           </ul>
         </section>
 
