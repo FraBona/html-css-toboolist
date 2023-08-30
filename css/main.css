@@ -157,3 +157,7 @@ ul, li{
 .sales{
   background-color: forestgreen;
 }
+
+.task-group{
+  padding-bottom: 20px;
+}
